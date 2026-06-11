@@ -1,0 +1,14 @@
+[Unit]
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/Uveghaz/ActuatorControl
+ExecStart=/usr/bin/python3 /home/pi/Uveghaz/ActuatorControl/ventilation.py
+Restart=always
+RestartSec=5
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target
