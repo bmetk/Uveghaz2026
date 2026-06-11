@@ -1,13 +1,22 @@
-Statikus IP-címek (dlink-E2CC - a projekt saját routere):
-- Raspberry Pi 4: 192.168.10.193
-- Raspberry Pi 3: 192.168.10.177
+## Hálózati beállítások & Indítás
 
-Beindítás:
-- Kapcsold be a két Pi-t!
-- Futtasd az asztalon található "Greenhouse Monitoring" nevezetű fájlt!
-- Ha megnyílt a két böngészős oldal (vezérlés és monitorozás), akkor az Alt gombot lenyomva kattints rá a másik tab-ra a böngészőben, így osztott képrenyőben megjelenik a két felület.
-- Az egeret vidd közére és húzd a képernyőelosztást balra, amíg a vezérlési felület kitölti a képernyőt!
-- Tedd F11-el teljes képrenyőre!
+### 🌐 Statikus IP-címek
+A projekt egy saját routerhez (**dlink-E2CC**) csatlakozik, amelyen az alábbi fix IP-címek vannak kiosztva:
+
+* **Raspberry Pi 4:** `192.168.10.193`
+* **Raspberry Pi 3:** `192.168.10.177`
+
+### 🚀 Beindítási folyamat
+
+A rendszer elindításához kövesd pontosan az alábbi lépéseket:
+
+1. **Hardver indítása:** Kapcsold be mindkét Raspberry Pi-t.
+2. **Szoftver futtatása:** Indítsd el az asztalon található `Greenhouse Monitoring` nevű fájlt.
+3. **Képernyő felosztása:** 
+    * Miután megnyílt a két böngészőlap (vezérlés és monitorozás), nyomd meg és tartsd lenyomva az `Alt` billentyűt.
+    * Kattints a másik böngészőfülre (tab-ra) a két felület osztott képernyős megjelenítéséhez.
+4. **Nézet igazítása:** Vidd az egeret a képernyő elválasztóvonalának közepére, majd húzd balra az elosztást addig, amíg a vezérlési felület teljesen ki nem tölti a kívánt részt.
+5. **Teljes képernyő:** Nyomd meg az `F11` billentyűt a teljes képernyős mód (fullscreen) aktiválásához.
 
 ## Funkciók
 
