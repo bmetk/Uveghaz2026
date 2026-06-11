@@ -1,0 +1,14 @@
+[Unit]
+After=network-online.target pigpiod.service
+Wants=network-online.target pigpiod.service
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/Uveghaz/ServoControl
+ExecStart=/usr/bin/python3 /home/pi/Uveghaz/ServoControl/back_window.py
+Restart=always
+RestartSec=5s
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target
