@@ -1,8 +1,3 @@
 paho-mqtt==2.1.0
 RPi.GPIO==0.7.1
 pigpio==1.78
-Adafruit-Blinka==9.0.4
-adafruit-circuitpython-bme280==2.6.30
-adafruit-circuitpython-bh1750==1.1.17
-adafruit-circuitpython-sgp30==3.0.14
-adafruit-circuitpython-mcp3xxx==1.5.0
