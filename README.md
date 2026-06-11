@@ -1,4 +1,4 @@
-IP addresses (dlink-E2CC - dedicated router):
+Statikus IP-címek (dlink-E2CC - a projekt saját routere):
 - Raspberry Pi 4: 192.168.10.193
 - Raspberry Pi 3: 192.168.10.177
 
