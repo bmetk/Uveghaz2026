@@ -11,8 +11,8 @@ Beindítás:
 
 Funkciók:
 - A vezérlési felületen a bal felső sarokban lévő menüben tudsz váltani az automatizációs és a manuális vezérlési felületek között.
-- Manuális vezérlés:
--   manuális vezérlési felületen a "Day Simulation" blokkban tudod elindítani/megállítani a napszimulációt.
+    Manuális vezérlés:
+    A manuális vezérlési felületen a "Day Simulation" blokkban tudod elindítani/megállítani a napszimulációt.
 A szimuláció folyamatosan megy, amíg meg nem állítod.
 A szimuláció sebességét folyamatosan lehet állítani, akár futás közben is.
 A "reset" gombbal minden beavatkozót alaphelyzetbe tudsz állítani.
