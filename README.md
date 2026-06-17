@@ -31,6 +31,9 @@ A vezérlési felületen a bal felső sarokban lévő menüben tudsz váltani az
 A manuális vezérlési felületen az egyes beavatkozókat teljesen önállóan irányíthatod. 
 *⚠️ Fontos: Manuális vezérlés közben kapcsold ki a napszimulációt és az automatizációt is!*
 
+* **Közvetlen elérés (Saját router):** [http://192.168.10.193:1880/control]
+* **Közvetlen elérés (Office Wi-Fi):** [http://172.22.0.136:1880/control]
+
 * ☀️ **Day Simulation (Napszimuláció) blokk**
     * **Indítás/Megállítás:** Itt tudod elindítani vagy leállítani a napszimulációt.
     * **Folyamatos futás:** A szimuláció megszakítás nélkül megy, amíg manuálisan meg nem állítod.
@@ -42,6 +45,9 @@ A manuális vezérlési felületen az egyes beavatkozókat teljesen önállóan 
 
 ### 🤖 Automatizáció
 Az automatizációs felületen a makett önálló szabályozását tudod kezelni és testreszabni.
+
+* **Közvetlen elérés (Saját router):** [http://192.168.10.193:1880/automation]
+* **Közvetlen elérés (Office Wi-Fi):** [http://172.22.0.136:1880/automation]
 
 * ⚙️ **Funkció kapcsoló:** Az automatizációs felületen tetszőlegesen be- és kikapcsolható a funkció.
 * 📋 **Alapértékek:** Ha a mezőket nem írod át, a rendszer a bennük látható gyári alapértékek szerint szabályozza magát.
