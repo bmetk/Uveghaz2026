@@ -69,7 +69,7 @@ A mérési adatok vizuális megjelenítésére a Grafana dashboard szolgál.
 ### 🗄️ InfluxDB (Adatbázis felület)
 A nyers adatok ellenőrzésére és egyedi lekérdezésekre az InfluxDB felülete használható.
 
-* **Elérhetőség:** [http://192.168.10.193:8086](http://192.168.10.193:8086)
+* **Elérhetőség:** [http://192.168.10.193:8086] (http://192.168.10.193:8086)
 * **Hitelesítési adatok:**
   * **Felhasználónév:** `Uveghaz`
   * **Jelszó:** `UveghazProject`
