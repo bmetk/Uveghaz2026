@@ -6,6 +6,10 @@ A projekt egy saját routerhez (**dlink-E2CC**) csatlakozik, amelyen az alábbi 
 * 🖥️ **Raspberry Pi 4:** `192.168.10.193`
 * 🖥️ **Raspberry Pi 3:** `192.168.10.177`
 
+**Alternatív elérés:** A rendszer csatlakozik az **I40TK-office** Wi-Fi hálózatra is, ahol a központi Raspberry Pi 4 az alábbi IP-címet kapja:
+* 📶 **Raspberry Pi 4 (Wi-Fi):** `172.22.0.136`
+* ℹ️ *A Grafana és InfluxDB felületek ezen a Wi-Fi címen keresztül is teljeskörűen elérhetőek.*
+
 ### 🚀 Beindítási folyamat
 A rendszer elindításához kövesd pontosan az alábbi lépéseket:
 
