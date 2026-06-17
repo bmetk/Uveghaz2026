@@ -64,7 +64,7 @@ A mérési adatok vizuális megjelenítésére a Grafana dashboard szolgál.
 3. Válaszd ki a **Dashboards** menüpontot.
 4. Kattints a **Greenhouse Sensors** nevű dashboardra a monitorozó felület megjelenítéséhez.
 
-
+---
 
 ### 🗄️ InfluxDB (Adatbázis felület)
 A nyers adatok ellenőrzésére és egyedi lekérdezésekre az InfluxDB felülete használható.
