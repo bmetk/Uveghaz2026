@@ -79,5 +79,5 @@ A nyers adatok ellenőrzésére és egyedi lekérdezésekre az InfluxDB felület
 1. Jelentkezz be, majd a bal oldali menüsávból válaszd ki a **Data Explorer** lehetőséget.
 2. A szűrők között (Filter) válaszd ki a `greenhouse/measurements` opciót.
 3. Az ezután megjelenő új szűrőpanelen válaszd ki a megtekinteni kívánt **üvegházi paramétereket** (pl. hőmérséklet, páratartalom).
-4. Igény szerint állítsd be a jobb felső sarokban, hogy az **elmúlt mennyi idő** (időintervallum) adatait szeretnéd látni.
-5. Kattints a **Submit** gombra a grafikon kirajzolásához.
+4. Igény szerint állítsd be a jobb felső sarokban, hogy az **elmúlt mennyi idő** adatait szeretnéd látni.
+5. Kattints a <kbd>Submit</kbd> gombra a grafikon kirajzolásához.
