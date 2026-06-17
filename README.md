@@ -53,7 +53,7 @@ Az automatizációs felületen a makett önálló szabályozását tudod kezelni
 ### 📈 Grafana (Monitorozó felület)
 A mérési adatok vizuális megjelenítésére a Grafana dashboard szolgál.
 
-* **Elérhetőség:** `http://192.168.10.193:3000` (Raspberry Pi 4 IP-címe : 3000)
+* **Elérhetőség:** [http://192.168.10.193:3000] (Raspberry Pi 4 IP-címe:3000)
 * **Hitelesítési adatok:**
   * **Felhasználónév:** `admin`
   * **Jelszó:** `admin`
@@ -69,7 +69,7 @@ A mérési adatok vizuális megjelenítésére a Grafana dashboard szolgál.
 ### 🗄️ InfluxDB (Adatbázis felület)
 A nyers adatok ellenőrzésére és egyedi lekérdezésekre az InfluxDB felülete használható.
 
-* **Elérhetőség:** [http://192.168.10.193:8086] (http://192.168.10.193:8086)
+* **Elérhetőség:** [http://192.168.10.193:8086] (Raspberry Pi 4 IP-címe:8086)
 * **Hitelesítési adatok:**
   * **Felhasználónév:** `Uveghaz`
   * **Jelszó:** `UveghazProject`
