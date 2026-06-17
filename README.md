@@ -58,8 +58,8 @@ Az automatizációs felületen a makett önálló szabályozását tudod kezelni
 ### 📈 Grafana (Monitorozó felület)
 A mérési adatok vizuális megjelenítésére a Grafana dashboard szolgál.
 
-* **Elérhetőség (Saját router):** [http://192.168.10.193:3000](http://192.168.10.193:3000)
-* **Elérhetőség (Office Wi-Fi):** [http://172.22.0.136:3000](http://172.22.0.136:3000)
+* **Elérhetőség (Saját router):** [http://192.168.10.193:3000]
+* **Elérhetőség (Office Wi-Fi):** [http://172.22.0.136:3000]
 * (Raspberry Pi 4 IP-címe:3000)
 * **Hitelesítési adatok:**
   * **Felhasználónév:** `admin`
@@ -76,8 +76,8 @@ A mérési adatok vizuális megjelenítésére a Grafana dashboard szolgál.
 ### 🗄️ InfluxDB (Adatbázis felület)
 A nyers adatok ellenőrzésére és egyedi lekérdezésekre az InfluxDB felülete használható.
 
-* **Elérhetőség (Saját router):** [http://192.168.10.193:8086](http://192.168.10.193:8086)
-* **Elérhetőség (Office Wi-Fi):** [http://172.22.0.136:8086](http://172.22.0.136:8086)
+* **Elérhetőség (Saját router):** [http://192.168.10.193:8086]
+* **Elérhetőség (Office Wi-Fi):** [http://172.22.0.136:8086]
 * (Raspberry Pi 4 IP-címe:8086)
 * **Hitelesítési adatok:**
   * **Felhasználónév:** `Uveghaz`
@@ -90,3 +90,17 @@ A nyers adatok ellenőrzésére és egyedi lekérdezésekre az InfluxDB felület
 3. Az ezután megjelenő új szűrőpanelen válaszd ki a megtekinteni kívánt **üvegházi paramétereket** (pl. hőmérséklet, páratartalom).
 4. Igény szerint állítsd be a jobb felső sarokban, hogy az **elmúlt mennyi idő** adatait szeretnéd látni.
 5. Kattints a <kbd>Submit</kbd> gombra a grafikon kirajzolásához.
+
+---
+
+### 🟢 Node-RED (Fejlesztői & Logikai felület)
+Az üvegház vezérlési logikáját és a backend folyamatokat a Node-RED kezeli.
+
+* **Elérhetőség (Saját router):** [http://192.168.10.193:1880]
+* **Elérhetőség (Office Wi-Fi):** [http://172.22.0.136:1880]
+* (Raspberry Pi 4 IP-címe:1880)
+
+**A rendszer az alábbi 3 fő flow-ból (folyamatból) áll:**
+* 🎛️ **Greenhouse Control:** A manuális vezérlésért felelős logikai rész.
+* ☀️ **Day Simulation:** A napszimuláció időzítéseit és sebességét kezelő folyamat.
+* 🤖 **Automation:** Az önálló, automatizált szabályozási kört megvalósító architektúra.
