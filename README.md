@@ -45,3 +45,39 @@ Az automatizációs felületen a makett önálló szabályozását tudod kezelni
     * **Éjszakai üzemmód:** Este az automatizáció hűvösebbre engedi a hőmérsékletet, és a fényeket sem kapcsolja be.
     * **Locsolás:** Napi egy alkalommal öntöz a rendszer, de csak akkor, ha a talajnedvesség a beállított érték alá süllyed.
     * **Légkeringetés:** A rendszer óránként 10 percen keresztül automatikusan keringeti a levegőt.
+
+---
+
+## 📊 Felületek elérése & Beállítások
+
+### 📈 Grafana (Monitorozó felület)
+A mérési adatok vizuális megjelenítésére a Grafana dashboard szolgál.
+
+* **Elérhetőség:** `http://192.168.10.193:3000` (Raspberry Pi 4 IP-címe : 3000)
+* **Hitelesítési adatok:**
+  * **Felhasználónév:** `admin`
+  * **Jelszó:** `admin`
+
+**A dashboard megnyitásának lépései:**
+1. Jelentkezz be a megadott adatokkal.
+2. Kattints a bal felső sarokban található **Menü** (☰) ikonra.
+3. Válaszd ki a **Dashboards** menüpontot.
+4. Kattints a **Greenhouse Sensors** nevű dashboardra a monitorozó felület megjelenítéséhez.
+
+---
+
+### 🗄️ InfluxDB (Adatbázis felület)
+A nyers adatok ellenőrzésére és egyedi lekérdezésekre az InfluxDB felülete használható.
+
+* **Elérhetőség:** `http://192.168.10.193:8086` (Raspberry Pi 4 IP-címe : 8086)
+* **Hitelesítési adatok:**
+  * **Felhasználónév:** `Uveghaz`
+  * **Jelszó:** `UveghazProject`
+* **⚠️ Adattárolási szabály:** Az adatbázis úgy van konfigurálva, hogy automatikusan csak az **elmúlt 7 nap** mérési adatait őrzi meg és tárolja.
+
+**Adatok lekérdezése és grafikon rajzolása:**
+1. Jelentkezz be, majd a bal oldali menüsávból válaszd ki a **Data Explorer** lehetőséget.
+2. A szűrők között (Filter) válaszd ki a `greenhouse/measurements` opciót.
+3. Az ezután megjelenő új szűrőpanelen válaszd ki a megtekinteni kívánt **üvegházi paramétereket** (pl. hőmérséklet, páratartalom).
+4. Igény szerint állítsd be a jobb felső sarokban, hogy az **elmúlt mennyi idő** (időintervallum) adatait szeretnéd látni.
+5. Kattints a **Submit** gombra a grafikon kirajzolásához.
