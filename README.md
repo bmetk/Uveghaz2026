@@ -1,6 +1,6 @@
 ## 🌐 Hálózati beállítások & Indítás
 
-### Statikus IP-címek
+### Statikus IP-címek és Elérések
 A projekt egy saját routerhez (**dlink-E2CC**) csatlakozik, amelyen az alábbi fix IP-címek vannak kiosztva:
 
 * 🖥️ **Raspberry Pi 4:** `192.168.10.193`
@@ -9,6 +9,11 @@ A projekt egy saját routerhez (**dlink-E2CC**) csatlakozik, amelyen az alábbi 
 **Alternatív elérés:** A rendszer csatlakozik az **I40TK-office** Wi-Fi hálózatra is, ahol a központi Raspberry Pi 4 az alábbi IP-címet kapja:
 * 📶 **Raspberry Pi 4 (Wi-Fi):** `172.22.0.136`
 * ℹ️ *A Grafana, InfluxDB és Node-RED felületek ezen a Wi-Fi címen keresztül is teljeskörűen elérhetőek.*
+
+### 🔐 Rendszer hitelesítési adatok (SSH / OS)
+Mindkét Raspberry Pi az alábbi alapértelmezett adatokkal érhető el távolról:
+* **Felhasználónév:** `pi`
+* **Jelszó:** `raspberry`
 
 ### 🚀 Beindítási folyamat
 A rendszer elindításához kövesd pontosan az alábbi lépéseket:
