@@ -1,4 +1,4 @@
-## 🌐 Hálózati beállítások & Indítás
+## 🌐 Hálózati beállítások, Indítás & Leállítás
 
 ### Statikus IP-címek és Elérések
 A projekt egy saját routerhez (**dlink-E2CC**) csatlakozik, amelyen az alábbi fix IP-címek vannak kiosztva:
@@ -25,6 +25,13 @@ A rendszer elindításához kövesd pontosan az alábbi lépéseket:
     * Kattints a másik böngészőfülre (tab-ra) a két felület osztott képernyős megjelenítéséhez.
 4. **Nézet igazítása:** Vidd az egeret a képernyő elválasztóvonalának közepére, majd húzd balra az elosztást addig, amíg a vezérlési felület teljesen ki nem tölti a kívánt részt.
 5. **Teljes képernyő:** Nyomd meg az <kbd>F11</kbd> billentyűt a teljes képernyős mód (fullscreen) aktiválásához.
+
+### 🛑 Leállítási folyamat
+Az SD-kártyák és a hardver sérülésének elkerülése érdekében mindig így állítsd le a rendszert:
+
+1. **Szoftveres leállítás:** Futtasd az asztalon található `Shutdown all` nevű parancsikont. Ez automatikusan elindítja a Raspberry Pi 3 és Raspberry Pi 4 biztonságos leállítását.
+2. **Hardver ellenőrzése:** Várd meg, amíg a Pi-ken található **zöld LED-ek teljesen abbahagyják a villogást** (folyamatosan alszanak vagy csak a piros tápled világít).
+3. **Áramtalanítás:** Ha a LED-ek már nem villognak, biztonságosan kikapcsolhatod a bal oldalon található **hosszabbítót**.
 
 ---
 
